@@ -2,5 +2,6 @@
 file='book.txt'
 while read line; do
 echo $line
-hello anguri
+echo $line
+echo $line
 done < $file
